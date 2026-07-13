@@ -1,0 +1,37 @@
+name: ⚖️ Dispute a verdict
+description: A card called it wrong — authentic marked as slop, or slop that slipped through.
+labels: [verdict-dispute]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Video link
+      placeholder: https://…
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Which way is it wrong?
+      options:
+        - Marked AI/slop, but it's authentic
+        - Marked authentic, but it's AI
+        - The "why it was made" read is off
+        - Something else on the card is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Your evidence
+      description: >
+        What makes you confident? Original source, behind-the-scenes, artifacts
+        you spotted, provenance info — anything checkable helps the most.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >
+        **Note:** the demo currently runs on seeded/simulated crowd data (see
+        the demo-data badge on every card). Disputes still matter — they shape
+        how the real reporting system will weigh evidence.

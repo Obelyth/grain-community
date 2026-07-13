@@ -1,0 +1,26 @@
+name: 💡 Feature request
+description: Something Grain should do, or do differently.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should Grain do, and in what situation would you use it?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: What does this make possible — or what pain does it remove?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - The verdict card
+        - Capture (share sheet / shortcut / extension)
+        - Community & reporting
+        - Trust & transparency
+        - Something else

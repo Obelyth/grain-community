@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🌾 Try Grain
+    url: https://grain-keithmichaelepk-9963s-projects.vercel.app
+    about: The live demo — share or paste any video link.
+  - name: 📖 How it works
+    url: https://github.com/Obelyth/grain-community/blob/main/docs/how-it-works.md
+    about: The verdict card, the crowd-first philosophy, and the pipeline.

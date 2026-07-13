@@ -1,0 +1,36 @@
+name: 🐞 Bug report
+description: Something broke — a card didn't load, a share didn't land, a number looks wrong.
+labels: [bug]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Video link (if relevant)
+      placeholder: https://www.tiktok.com/@user/video/…
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, and what did you see?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where were you?
+      options:
+        - iPhone — via the Shortcut
+        - Android — via the share sheet
+        - Pasted a link at the site
+        - Just browsing the site
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device / browser
+      placeholder: e.g. iPhone 15, Safari · Pixel 8, Chrome
