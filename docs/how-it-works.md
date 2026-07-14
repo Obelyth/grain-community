@@ -1,5 +1,30 @@
 # How Grain works
 
+## The Daily Grain Check
+
+Every day, five short clips — the same five for everyone. Your job: call each
+one **real or AI**. Swipe a little to make a quick call, swipe further to bet
+you're sure. You only find out after you commit, so there's no peeking and no
+crowd to follow — just you and your eyes.
+
+Then the reveal: were you right, how many other people got fooled, and your
+points. Do well on the clips that fool most people and your **detection rating**
+climbs — a real, earned measure of how good you are at spotting AI. Miss a
+confident bet and it costs you. At the end you get a spoiler-free result row to
+share.
+
+Two rules keep it honest and keep it fair:
+
+- **The answer lives only on the server.** Your phone can't see whether a clip
+  is AI until you've already guessed — so nobody can cheat, and the crowd data
+  stays real.
+- **Points are earned, never bought**, and your skill rating is kept separate
+  from your point balance. You can't buy your way to trusted.
+
+This is the seed of the bigger idea: a crowd of people with *measured*
+judgment, whose collective read on a video means something precisely because
+they've proven they can tell.
+
 ## The verdict card
 
 Every checked video gets a **specimen card**:

@@ -30,11 +30,15 @@ even better.
 
 No app store, no account:
 
-- **iPhone** — a 2-minute Shortcut puts Grain in your Share sheet.
-  [Setup guide](docs/share-sheet-setup.md)
-- **Android** — install Grain from Chrome (Add to Home screen) and it appears
-  in your native share sheet.
-- **Anywhere** — paste a link at the site.
+- **Check a video** — share or paste any link and get the crowd's read.
+  - iPhone: a 2-minute Shortcut puts Grain in your Share sheet.
+    [Setup guide](docs/share-sheet-setup.md)
+  - Android: install Grain from Chrome (Add to Home screen) — it appears in
+    your native share sheet.
+  - Anywhere: paste a link at the site.
+- **Play the Daily Grain Check** — five clips a day, real or AI, swipe to
+  guess and see if you can beat the crowd. Open `/play` — no account needed to
+  start. [How it works](docs/how-it-works.md)
 
 ## Honesty, up front
 
